@@ -1,0 +1,16 @@
+{
+  "instrument": "Keys",
+  "label": "Klawisze / Pianino",
+  "zones": [
+    { "from_hz": 60,   "to_hz": 120,  "title": "Low Cut",
+      "action_add": "",
+      "action_cut": "Zwolnij miejsce dla basu i stopy." },
+    { "from_hz": 250,  "to_hz": 500,  "title": "Ciało / Mud",
+      "action_add": "Ciepło i pełnia akordów.",
+      "action_cut": "Odejmij, jeśli klawisze zamulają miks.",
+      "color": "ffab40" },
+    { "from_hz": 3000, "to_hz": 6000, "title": "Atak młoteczków",
+      "action_add": "Czytelność ataku w gęstym miksie.",
+      "action_cut": "Odejmij, jeśli klawisze kłują." }
+  ]
+}
